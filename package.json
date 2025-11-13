@@ -1,0 +1,15 @@
+{
+  "name": "minie-ai-v8",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.4.0",
+    "http-proxy-middleware": "^2.0.6",
+    "node-fetch": "^3.4.1"
+  }
+}
