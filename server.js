@@ -25,7 +25,7 @@ const HF_URL = "https://router.huggingface.co/v1";
 const PORT = process.env.PORT || 10000;
 
 // --------------------
-// Legacy route for feature phones
+// Ultralight /legacy route for feature phones
 // --------------------
 app.get("/legacy", (req, res) => {
   const html = `
@@ -146,3 +146,4 @@ app.post("/chat", async (req, res) => {
 app.listen(PORT, () =>
   console.log(`Mini AI V8 running on port ${PORT}`)
 );
+
